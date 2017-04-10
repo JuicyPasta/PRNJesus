@@ -1,0 +1,67 @@
+#=============================================================================#
+#            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
+#=============================================================================#
+   rng_name    |           filename             |rands/second|
+ file_input_raw|                  LG_URandom.dat|  1.68e+07  |
+#=============================================================================#
+        test_name   |ntup| tsamples |psamples|  p-value |Assessment
+#=============================================================================#
+   diehard_birthdays|   0|       100|     100|0.49595325|  PASSED  
+      diehard_operm5|   0|   1000000|     100|0.96562989|  PASSED  
+  diehard_rank_32x32|   0|     40000|     100|0.76313263|  PASSED  
+    diehard_rank_6x8|   0|    100000|     100|0.99820691|   WEAK   
+   diehard_bitstream|   0|   2097152|     100|0.30914749|  PASSED  
+        diehard_opso|   0|   2097152|     100|0.50007881|  PASSED  
+        diehard_oqso|   0|   2097152|     100|0.95036376|  PASSED  
+         diehard_dna|   0|   2097152|     100|0.33832235|  PASSED  
+diehard_count_1s_str|   0|    256000|     100|0.15842776|  PASSED  
+diehard_count_1s_byt|   0|    256000|     100|0.79993654|  PASSED  
+ diehard_parking_lot|   0|     12000|     100|0.31899023|  PASSED  
+    diehard_2dsphere|   2|      8000|     100|0.16071733|  PASSED  
+    diehard_3dsphere|   3|      4000|     100|0.58281278|  PASSED  
+     diehard_squeeze|   0|    100000|     100|0.17403872|  PASSED  
+        diehard_sums|   0|       100|     100|0.15558127|  PASSED  
+        diehard_runs|   0|    100000|     100|0.84458360|  PASSED  
+        diehard_runs|   0|    100000|     100|0.99553771|   WEAK   
+       diehard_craps|   0|    200000|     100|0.91507564|  PASSED  
+       diehard_craps|   0|    200000|     100|0.35933115|  PASSED  
+ marsaglia_tsang_gcd|   0|  10000000|     100|0.59709595|  PASSED  
+ marsaglia_tsang_gcd|   0|  10000000|     100|0.00006278|   WEAK   
+         sts_monobit|   1|    100000|     100|0.47155309|  PASSED  
+            sts_runs|   2|    100000|     100|0.55111331|  PASSED  
+          sts_serial|   1|    100000|     100|0.13272721|  PASSED  
+          sts_serial|   2|    100000|     100|0.68504409|  PASSED  
+          sts_serial|   3|    100000|     100|0.25002603|  PASSED  
+          sts_serial|   3|    100000|     100|0.71236398|  PASSED  
+          sts_serial|   4|    100000|     100|0.13899900|  PASSED  
+          sts_serial|   4|    100000|     100|0.16417566|  PASSED  
+          sts_serial|   5|    100000|     100|0.22026485|  PASSED  
+          sts_serial|   5|    100000|     100|0.57770517|  PASSED  
+          sts_serial|   6|    100000|     100|0.31052936|  PASSED  
+          sts_serial|   6|    100000|     100|0.57279069|  PASSED  
+          sts_serial|   7|    100000|     100|0.51070683|  PASSED  
+          sts_serial|   7|    100000|     100|0.92745532|  PASSED  
+          sts_serial|   8|    100000|     100|0.45629864|  PASSED  
+          sts_serial|   8|    100000|     100|0.98074751|  PASSED  
+          sts_serial|   9|    100000|     100|0.49960998|  PASSED  
+          sts_serial|   9|    100000|     100|0.93830546|  PASSED  
+          sts_serial|  10|    100000|     100|0.24552535|  PASSED  
+          sts_serial|  10|    100000|     100|0.33010651|  PASSED  
+          sts_serial|  11|    100000|     100|0.21375636|  PASSED  
+          sts_serial|  11|    100000|     100|0.36943944|  PASSED  
+          sts_serial|  12|    100000|     100|0.11519195|  PASSED  
+          sts_serial|  12|    100000|     100|0.97122458|  PASSED  
+          sts_serial|  13|    100000|     100|0.36132496|  PASSED  
+          sts_serial|  13|    100000|     100|0.84942639|  PASSED  
+          sts_serial|  14|    100000|     100|0.05379151|  PASSED  
+          sts_serial|  14|    100000|     100|0.55328678|  PASSED  
+          sts_serial|  15|    100000|     100|0.13996483|  PASSED  
+          sts_serial|  15|    100000|     100|0.14245852|  PASSED  
+          sts_serial|  16|    100000|     100|0.11283707|  PASSED  
+          sts_serial|  16|    100000|     100|0.37516956|  PASSED  
+         rgb_bitdist|   1|    100000|     100|0.17976599|  PASSED  
+         rgb_bitdist|   2|    100000|     100|0.61540465|  PASSED  
+         rgb_bitdist|   3|    100000|     100|0.60414102|  PASSED  
+         rgb_bitdist|   4|    100000|     100|0.89790880|  PASSED  
+         rgb_bitdist|   5|    100000|     100|0.91517910|  PASSED  
+         rgb_bitdist|   6|    100000|     100|0.06852215|  PASSED  

@@ -1,0 +1,3878 @@
+Script started on Sun 12 Mar 2017 07:30:00 PM DST
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo mv liltest/liltest/ ../AndrroidStudioProjects/RNJesus/.^C
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ script.dir
+script.dir: command not found
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ RScript
+No command 'RScript' found, did you mean:
+ Command 'Rscript' from package 'r-base-core' (universe)
+RScript: command not found
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ r-b[K[K[KRscript
+Usage: /path/to/Rscript [--options] [-e expr [-e expr2 ...] | file] [args]
+
+--options accepted are
+  --help              Print usage and exit
+  --version           Print version and exit
+  --verbose           Print information on progress
+  --default-packages=list
+                      Where 'list' is a comma-separated set
+                        of package names, or 'NULL'
+or options to R, in addition to --slave --no-restore, such as
+  --save              Do save workspace at the end of the session
+  --no-environ        Don't read the site and user environment files
+  --no-site-file      Don't read the site-wide Rprofile
+  --no-init-file      Don't read the user R profile
+  --restore           Do restore previously saved objects at startup
+  --vanilla           Combine --no-save, --no-restore, --no-site-file
+                        --no-init-file and --no-environ
+
+'file' may contain spaces but not shell metacharacters
+Expressions (one or more '-e <expr>') may be used *instead* of 'file'
+See also  ?Rscript  from within R
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ Rscript < [K- dirname(sys.frame(1) )
+bash: syntax error near unexpected token `('
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ which Rscript
+/usr/bin/Rscript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/b in/Rscript [K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KLILtest.jar -s -p -a  -b ../DataFiles/PI[Kixel_SecureRandom_1.dat -l 15
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: ../DataFiles/Pixel_SecureRandom_1.dat
+It is 0MB long. I divided this file 
+into 0 sequences (each sequence is 16777216KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+2097152KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ lsjava -jar LILtest.jar -s -p -a --b ../DataFiles/Pixel_SecureRandom_1.dat -l 15[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klsjava -jar LILtest.jar -s -p -a --b ../DataFiles/Pixel_SecureRandom_1.dat -l 15
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+^C[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls ../DataFiles/Pixel_[K[K[K[K[K[K[C[C[1P ../DataFiles/; ../DataFiles/[1P ../DataFiles/l ../DataFiles/
+total 2191364
+drwxrwxrwx 2 root root          0 Mar 12 12:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ll ../DataFiles/java -jar LILtest.jar -s -p -a --b ../DataFiles/Pixel_SecureRandom_1.dat -l 15[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [15Pll ../DataFiles/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -jar LILtest.jar -s -p -a --b ../DataFiles/Pixel_SecureRandom_1.dat -l 15[C[1P[1P[C[1@/[1@m[1@n[1@t[1@c[1P[C[1@/[1@c[C[1@/[1@U[4@sers[1@J[1P[C[1@/[1@J[1P[1@a[1@j[1P[1P[1@j[1@a[5@ckson[C[1@/[1@A[1@n[1@d[18@roidStudioProjects[C[1@/[1@R[1@N[1@J[4@esus
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 0MB long. I divided this file 
+into 0 sequences (each sequence is 16777216KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+2097152KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -s -p -a --b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 15[C[C[C[C[C[C[C[C[C[C[C[C[K0
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1536MB long. I divided this file 
+into 3 sequences (each sequence is 524288KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+65536KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -s -p -a --b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 10[K[K5
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1072MB long. I divided this file 
+into 67 sequences (each sequence is 16384KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+2048KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -s -p -a --b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 5[A[C[C[C[C[C -jar LILtest.jar -s -p -a [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C- -jar LILtest.jar -s -p -a[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[Cr -jar LILtest.jar -s -p -[1@a[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C -jar LILtest.jar -s -p [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C/ -jar LILtest.jar -s -p[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[Cu -jar LILtest.jar -s -[1@p[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[Cs -jar LILtest.jar -s [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[Cr -jar LILtest.jar -s[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C/ -jar LILtest.jar -[1@s[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[Cb -jar LILtest.jar [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ci -jar LILtest.jar[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -jar LILtest.ja[1@r[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ -jar LILtest.j[1@a[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CR -jar LILtest.[1@j[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -jar LILtest[1@.[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc -jar LILtes[1@t[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -jar LILte[1@s[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci -jar LILt[1@e[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -jar LIL[1@t[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -jar LI[1@L[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Unrecognized option: -r
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -r /usr/bin/Rscript -jar LIILtest.jar -s -p -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LIL[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILt[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILte[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtes[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.j[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.ja[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.jar[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.jar [1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.jar -[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.jar -s[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C -jar LILtest.jar -s [1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C -jar LILtest.jar -s -[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C -jar LILtest.jar -s -p[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C -jar LILtest.jar -s -p [1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C-jar LILtest.jar -s -p -[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C -jar LILtest.jar -s -p -a[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C -jar LILtest.jar -s -p -a [1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C-jar LILtest.jar -s -p -a -[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-s -p -a [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr-s -p -a[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s -p -[1@a[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/-s -p [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu-s -p[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs-s -[1@p[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr-s [1@-[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/-s[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb-[1@s[1@i[1@n[1@/[1@R[1@S[1P[1@s[1@c[1@r[1@i[1@p[1@t[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K7
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1088MB long. I divided this file 
+into 17 sequences (each sequence is 65536KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+8192KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 7[1P[1P[1P
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1088MB long. I divided this file 
+into 17 sequences (each sequence is 65536KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+8192KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 7[C[K1
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 1070 sequences (each sequence is 1024KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+128KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 1[K0
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1@-[1@a[1@ [C[C[C
+lib/                LILSnap.pdf         LILtestResults.txt  typescript          
+LILSnap             LILtest.jar         README.TXT          
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -a -b  -l 0
+lib/                LILSnap.pdf         LILtestResults.txt  typescript          
+LILSnap             LILtest.jar         README.TXT          
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -a -b  -l 0[1@R[1@E[8@ADME.TXT
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -a -b README.TXT -l 0
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s -p -a -b README.TXT -l 0[C[C[1@ [1@S[1@N[1@A[1@P[1@.[1@p[1@d[1@f[C[C[C[C[1@ [1@P[1@L[1@O[1@T[1@>[1@p[1@d[1@f[1P[1P[1P[1P[1@.[1@p[1@d[1@f
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:PLOT.pdf
+PLOT.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: PLOT.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ fin [Kd /mnt/c/ja[K[KUsers/ | grep PLOT. pdf
+find: `/mnt/c/Users/jackson/AppData/Local/ElevatedDiagnostics': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/cache': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/data': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/home': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/mnt': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/root': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/rootfs': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/lxss/temp': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/Microsoft/Windows/INetCache/Low/Content.IE5': Permission denied
+find: `/mnt/c/Users/jackson/AppData/Local/Temp/msdtadmin': Permission denied
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get install r-base-dev [A
+[sudo] password for jackson: 
+Sorry, try again.
+[sudo] password for jackson: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+r-base-dev is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ which RScript[K[K[K[K[K[Kscript
+/usr/bin/Rscript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ which Rscriptsudo apt-get install r-base-dev [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /mnt/c/Users/ | grep PLOT.ppdf[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/bin/Rscript -s SNAP.pdf -p PLOT.pdf -a -b README.TXT -l 0[1@.[1@/[C[1@.[1@/
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:./PLOT.pdf
+./PLOT.pdf created.
+Create snapShot file:./SNAP.pdf
+Begin to carry snapShopt LIL testing
+./SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: ./PLOT.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: ./SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s ./SNAP.pdf -p ./PLOT.pdf -a -b README.TXT -l 0[C[C[C[C[C[C^C
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ less LILSnap 
+[?1049h[?1h=-318.77004340100376
+[7mLILSnap (END)[27m[K[K[?1l>[?1049l[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ less LILSnap java -jar LILtest.jar -r /usr/biin/Rscript -s ./SNAP.pdf -p ./PLOT.pdf -a -b README.TXT -l 0[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [18Pwhich Rscript
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get install r-base-dev [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /mnt/c/Users/ | grep PLOT.ppdf[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/bin/Rscript -s SNAP.pdf -p PLOT.pdf -a -b README.TXT -l 0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18P-p[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[72@b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat[C[C[C[C[C
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ less LILSnap 
+[?1049h[?1h=-318.77004340100376
+[7mLILSnap (END)[27m[K[K[?1l>[?1049l[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ lsess LILSnap java -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[C[1@ [1@S[1@N[1@A[1@P[1@.[1@p[1@d[1@f[C[C[C[CS-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CN-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 00[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat [1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.da[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.d[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca-b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1[1@.[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_[1@1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ rm LILSnap 
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ rm README0liltest.lil 
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILtest.jar  LILtestResults.txt  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ cat LIR[KLtest
+cat: LILtest: No such file or directory
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ cat LILtestResults.txt 
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ cat LILtestResults.txt [Kls[Krm README0liltest.lil ls[Krm LILSnap ls[Kjava -jar LILtest.jar -r /usr/biin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom__1.dat -l 0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.d[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.da[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.d[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CL.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CO.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1[1@.[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CT.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_[1@1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/SNAP.pdf -p PLOT.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom[1@_[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/PLOT.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRando[1@m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:/PLOT.pdf
+/PLOT.pdf created.
+Create snapShot file:/SNAP.pdf
+Begin to carry snapShopt LIL testing
+/SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: /PLOT.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: /SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s /SNAP.pdf -p /PLOT.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandoom_1.dat -l 0[A[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [8Pcat LILtestResults.txt 
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls[Krm README0liltest.lil ls[Krm LILSnap ls[Kjava -jar LILtest.jar -r /usr/biin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom__1.dat -l 0
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /usr/biin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom__1.dat -l 0[A[C[C[C/SNAP.pdf -p /PLOT.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRando[2@m_[C[C[C[C[C[C[C[C[C[C[A[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [8Pcat LILtestResults.txt 
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls[Krm README0liltest.lil ls[Krm LILSnap ls[Kjava -jar LILtest.jar -r /usr/biin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom__1.dat -l 0[A[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cess LILSnap java -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[A[18Pless LILSnap 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -jar LILtest.jar -r /usr/biin/Rscript -s ./SNAP.pdf -p ./PLOT.pdf -a -b README.TXT -l 0[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [18Pwhich Rscript
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -jar LILtest.jar -r /usr/biin/Rscript -s ./SNAP.pdf -p ./PLOT.pdf -a -b README.TXT -l 0[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [18Pless LILSnap 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjava -jar LILtest.jar -r /usr/biin/Rscript -s -p -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b [1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /m[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /mn[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /mnt[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /mnt/[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /mnt/c[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb /mnt/c/[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+***** lil testing process started *****
+Begin to divide the random files into sequences
+^C[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -b /mnt/c//Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[Cva -jar LILtest.jar -b /mnt/c/U[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [Cva -jar LILtest.jar -b /mnt/c/Us[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [Cjva -jar LILtest.jar -b /mnt/c/U[1@s[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [Cava -jar LILtest.jar -b /mnt/c/[1@U[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b /mnt/c[1@/[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca-b /mnt/[1@c[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -b /mnt[1@/[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+***** lil testing process started *****
+Begin to divide the random files into sequences
+No plot file requested
+No snapShot testing requested
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -a -b /mntt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0 -s -o[Kp
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:lilCurve.pdf
+lilCurve.pdf created.
+Create snapShot file:lilSnap.pdf
+Begin to carry snapShopt LIL testing
+lilSnap.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: lilCurve.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: lilSnap.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ cat LILSnap 
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-core r-co re-dev
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package r-core
+E: Unable to locate package r-core-dev
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-core r-corre-dev[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package r-core
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-core[K[K[K[K[K_core
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package r_core
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r_core[K[K[K[K^C
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ r
+The program 'r' is currently not installed. You can install it by typing:
+sudo apt-get install littler
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ rscript
+No command 'rscript' found, did you mean:
+ Command 'script' from package 'bsdutils' (main)
+ Command 'escript' from package 'erlang-base-hipe' (universe)
+ Command 'escript' from package 'erlang-base' (main)
+rscript: command not found
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ RE[KScript
+No command 'RScript' found, did you mean:
+ Command 'Rscript' from package 'r-base-core' (universe)
+RScript: command not found
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-core[K[K[Kb[K[Kbase-core  r-base-core-dev
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package r-base-core-dev
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-base-core  r-base-core-dev[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  cdbs dh-translations gfortran gfortran-4.8 icu-devtools intltool libblas-dev
+  libbz2-dev libgfortran-4.8-dev libgfortran3 libicu-dev libjpeg-dev
+  libjpeg-turbo8-dev libjpeg8-dev liblapack-dev liblapack3 liblzma-dev
+  libncurses5-dev libpaper-utils libpaper1 libpcre3-dev libpcrecpp0
+  libpng12-dev libreadline-dev libreadline6-dev libtcl8.6 libtinfo-dev
+  libtk8.6 libxml-parser-perl libxss1 pkg-config python-scour r-doc-html unzip
+  zip
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  r-base r-base-core r-base-dev r-base-html r-cran-boot r-cran-class
+  r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth
+  r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet
+  r-cran-rpart r-cran-spatial r-cran-survival r-recommended
+0 upgraded, 0 newly installed, 20 to remove and 26 not upgraded.
+After this operation, 57.2 MB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 46417 files and directories currently installed.)
+Removing r-base (3.3.3-1trusty0) ...
+Removing r-recommended (3.3.3-1trusty0) ...
+Removing r-cran-mgcv (1.8-16-1cran1trusty0) ...
+Removing r-cran-class (7.3-14-1trusty0) ...
+Removing r-base-dev (3.3.3-1trusty0) ...
+Removing r-cran-nnet (7.3-12-1trusty0) ...
+Removing r-base-html (3.3.3-1trusty0) ...
+Removing r-cran-boot (1.3-17-1trusty0) ...
+Removing r-cran-cluster (2.0.5-1trusty0) ...
+Removing r-cran-codetools (0.2-15-1cran1trusty0) ...
+Removing r-cran-foreign (0.8.67-1trusty0) ...
+Removing r-cran-kernsmooth (2.23-15-2trusty0) ...
+Removing r-cran-nlme (3.1.131-2trusty0) ...
+Removing r-cran-rpart (4.1-10-1trusty0) ...
+Removing r-cran-survival (2.39-4-2trusty0) ...
+Removing r-cran-matrix (1.2-8-1trusty0) ...
+Removing r-cran-lattice (0.20-34-1trusty0) ...
+Removing r-cran-mass (7.3-44-1trusty0) ...
+Removing r-cran-spatial (7.3-10-1trusty0) ...
+Removing r-base-core (3.3.3-1trusty0) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu1) ...
+Processing triggers for mime-support (3.54ubuntu1.1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-base-core  r-base-core-dev[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ RScript[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crscript[Ksudo apt-get remove r_core-core r-corre-dev[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [19Pcat LILSnap 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kjava -jar LILtest.jar -a -b /mntt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0 -s -p[K[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb /mnt/c/[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -b /mnt[3@/c/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+***** lil testing process started *****
+Begin to divide the random files into sequences
+^C[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -a -b /mntt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ sudo apt-get remove r-base-core [Kr-base-core-dev[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ RScript[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crscript[Ksudo apt-get remove r_core-core r-corre-dev[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [19Pcat LILSnap 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kjava -jar LILtest.jar -a -b /mntt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0 -s -p[K[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb /mnt/c/[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr /usr/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom__1.dat -l 0[A[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb /mnt/c/[36PUsers/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr /usr/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom__1.dat -l 0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1[1P[A[C[C[C[C[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.[1P[A[C[C[C[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.d[1P[A[C[C[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.da[1P[A[C[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat[1P[A[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat [1P[A[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -[1P[A[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l[1P 0[A -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l [1P0[A -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0 [K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s[1P
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s [1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s S[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -s SN[1P[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -s S[1@N[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -s [1@S[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -s[1@ [A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0 [A[A[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 00[A/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[AU -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[Asers/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[Aj -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.[1@d[A[C[C[C[C[C[Cackson/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRa[7@ndom_1.[A[C[C[C[C[C[C[CD -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureR[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[Co -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_Secure[1@R[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cw -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_Secur[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_Secu[1@r[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cloads/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixe[6@l_Secu[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CR -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pix[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pi[1@x[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.15.3 -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFi[6@les/Pi[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataF[1@i[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/Data[1@F[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/Dat[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn/ -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/D[C[2@ta[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CR -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/[1@D[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RN[5@Jesus[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 2140 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ lsjava -jar LILtest.jar -r /mnt/c//Users/jackson/Downloads/R-2.15.3/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1070MB long. I divided this file 
+into 535 sequences (each sequence is 2048KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+256KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /mnt/c//Users/jackson/Downloads/R-2.15.3/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 2[K10
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1536MB long. I divided this file 
+into 3 sequences (each sequence is 524288KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+65536KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /mnt/c//Users/jackson/Downloads/R-2.15.3/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 10[K[K5
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: /mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles/Pixel_SecureRandom_1.dat
+It is 1072MB long. I divided this file 
+into 67 sequences (each sequence is 16384KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		Infinity(expected)	
+		0.0 (actual)
+Hellinger distance: 
+		Infinity(expected)	
+		NaN (actual)
+root-mean-square deviation: 
+		Infinity(expected)	
+		NaN (actual)
+
+The LIL testing was carried out on 0 sequences. Each Sequence is
+2048KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ java -jar LILtest.jar -r /mnt/c//Users/jackson/Downloads/R-2.15.3/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b /mnt/c/Users/jackson/AndroidStudioProjects/RNNJesus/DataFiles/Pixel_SecureRandom_1.dat -l 5[K0[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -l[1P 0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -l [1P0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -l 0[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -l 0 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@R[1@E[8@ADME.TXT
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ lsjava -jar LILtest.jar -r /mnt/c//Users/jackson/Downloads/R-2.15.3/bin/Rscript -s SNAP.pdf -p SNAP.pdf -a -b README.TXT -l 0
+***** lil testing process started *****
+Begin to divide the random files into sequences
+Begin to create LIL curve file:SNAP.pdf
+SNAP.pdf created.
+Create snapShot file:SNAP.pdf
+Begin to carry snapShopt LIL testing
+SNAP.pdf created.
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ cat LIl[KLSnap 
+-318.77004340100376
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ cat README0liltest.lil 
+LIL
+-8.764293848201676
+-11.982108697201069
+-14.426436550579561
+-16.4735769096511
+-18.268402724583588
+-19.884839983777287
+-21.366621739891844
+-22.74214241087417
+-24.031064986941523
+-25.247667812076575
+-26.402704298503675
+-27.50451092438542
+-28.559704380121403
+-29.573639914558093
+-30.55072378849219
+-31.494632840509894
+-32.40847281994265
+-33.29489513656921
+-34.15618463578018
+-34.994326726086555
+-35.81105949850433
+-36.60791474335344
+-37.38625062337112
+-38.14727798701866
+-38.892081771617875
+-39.621638571086635
+-40.336831175733046
+-41.03846069813024
+-41.72725675721642
+-42.40388608740823
+-43.06895986037947
+-43.723039947085525
+-44.36664430156294
+-45.000251612408036
+-45.6243053400416
+-46.23921723600527
+-46.84537042321151
+-47.44312210224673
+-48.032805937722564
+-48.614734169696234
+-49.18919948788351
+-49.75647670042219
+-50.316824224040225
+-50.87048541843278
+-51.417689784290495
+-51.95865404161852
+-52.493583102639356
+-53.02267095159914
+-53.54610144213194
+-54.06404902142511
+-54.576679389229426
+-55.08415009873379
+-55.58661110544817
+-56.08420526948575
+-56.57706881598744
+-57.065331757871604
+-57.54911828460741
+-58.02854712028817
+-58.50373185391502
+-58.974781244480205
+-59.4417995031594
+-59.904886554676644
+-60.36413827968875
+-60.81964673984643
+-61.2715003870203
+-61.71978425803199
+-62.16458015609803
+-62.6059668200774
+-63.044020082509476
+-63.478813017335696
+-63.910416078116114
+-64.33889722747689
+-64.76432205845927
+-65.1867539083798
+-65.60625396575924
+-66.02288137082826
+-66.43669331007496
+-66.84774510526032
+-67.2560902972916
+-67.66178072531194
+-68.06486660133523
+-68.465396580729
+-68.86341782882407
+-69.25897608390737
+-69.65211571683558
+-70.04287978748782
+-70.4313100982601
+-70.81744724478841
+-71.20133066407406
+-71.58299868017171
+-71.96248854758939
+-72.3398364925387
+-72.71507775216415
+-73.0882466118708
+-73.4593764408621
+-73.82849972599125
+-74.19564810402309
+-74.56085239239648
+-74.92414261857172
+-75.28554804804132
+-75.64509721107815
+-76.00281792828952
+-76.35873733504167
+-76.71288190481518
+-77.06527747154786
+-77.41594925101816
+-77.76492186131911
+-78.11221934246919
+-78.45786517520487
+-78.80188229899537
+-79.14429312931908
+-79.4851195742382
+-79.82438305030587
+-80.16210449783865
+-80.49830439558487
+-80.83300277481764
+-81.1662192328801
+-81.49797294620845
+-81.82828268285742
+-82.15716681455096
+-82.48464332827994
+-82.81072983746779
+-83.1354435927231
+-83.45880149219822
+-83.7808200915709
+-84.10151561366584
+-84.42090395773187
+-84.73900070838951
+-85.05582114426345
+-85.37138024631301
+-85.68569270587366
+-85.99877293242167
+-86.31063506107328
+-86.62129295982982
+-86.93076023657858
+-87.23905024586014
+-87.54617609541091
+-87.85215065249048
+-88.15698655000199
+-88.460696192414
+-88.76329176149146
+-89.06478522184337
+-89.36518832629413
+-89.66451262108562
+-89.96276945091606
+-90.25996996382229
+-90.55612511591113
+-90.85124567594555
+-91.145342229791
+-91.43842518472718
+-91.73050477363009
+-92.02159105902909
+-92.31169393704369
+-92.60082314120405
+-92.8889882461597
+-93.17619867128029
+-93.4624636841522
+-93.7477924039745
+-94.03219380485832
+-94.31567671903218
+-94.59824983995718
+-94.8799217253548
+-95.16070080015051
+-95.44059535933562
+-95.71961357075071
+-95.99776347779269
+-96.2750530020485
+-96.55148994585744
+-96.82708199480487
+-97.10183672014924
+-97.37576158118459
+-97.64886392754103
+-97.92115100142449
+-98.19262993979832
+-98.46330777650829
+-98.73319144435258
+-99.00228777709899
+-99.27060351145052
+-99.53814528896126
+-99.80491965790382
+-100.07093307509015
+-100.3361919076468
+-100.60070243474622
+-100.86447084929537
+-101.12750325958298
+-101.38980569088648
+-101.6513840870401
+-101.91224431196507
+-102.17239215116297
+-102.43183331317375
+-102.69057343099871
+-102.94861806349014
+-103.20597269670826
+-103.4626427452463
+-103.71863355352492
+-103.97395039705657
+-104.22859848368078
+-104.48258295477112
+-104.73590888641473
+-104.988581290565
+-105.24060511616825
+-105.49198525026524
+-105.74272651906794
+-105.99283368901239
+-106.24231146778826
+-106.49116450534581
+-106.73939739488075
+-106.98701467379763
+-107.2340208246522
+-107.48042027607377
+-107.72621740366725
+-107.97141653089645
+-108.21602192994807
+-108.46003782257768
+-108.70346838093784
+-108.9463177283887
+-109.1885899402918
+-109.4302890447873
+-109.67141902355509
+-109.91198381256028
+-110.15198730278335
+-110.39143334093545
+-110.63032573015909
+-110.86866823071458
+-111.1064645606529
+-111.3437183964748
+-111.58043337377686
+-111.81661308788466
+-112.05226109447354
+-112.2873809101769
+-112.5219760131828
+-112.7560498438187
+-112.98960580512507
+-113.2226472634175
+-113.45517754883844
+-113.68719995589802
+-113.91871774400455
+-114.14973413798509
+-114.38025232859599
+-114.61027547302383
+-114.83980669537702
+-115.06884908716799
+-115.29740570778665
+-115.52547958496486
+-115.75307371523238
+-115.98019106436445
+-116.20683456782103
+-116.43300713117826
+-116.65871163055171
+-116.88395091301234
+-117.10872779699469
+-117.3330450726978
+-117.55690550247895
+-117.78031182124049
+-118.00326673680955
+-118.22577293031124
+-118.44783305653519
+-118.66944974429569
+-118.89062559678541
+-119.11136319192315
+-119.3316650826954
+-119.55153379749208
+-119.77097184043635
+-119.98998169170899
+-120.20856580786712
+-120.42672662215732
+-120.64446654482374
+-120.8617879634109
+-121.07869324306122
+-121.29518472680773
+-121.51126473586191
+-121.7269355698966
+-121.94219950732429
+-122.15705880557083
+-122.37151570134463
+-122.58557241090136
+-122.79923113030439
+-123.01249403568099
+-123.22536328347435
+-123.4378410106915
+-123.64992933514735
+-123.86163035570455
+-124.07294615250987
+-124.28387878722647
+-124.49443030326272
+-124.70460272599723
+-124.91439806300052
+-125.1238183042529
+-125.3328654223593
+-125.54154137276048
+-125.74984809394105
+-125.95778750763422
+-126.16536151902345
+-126.372572016941
+-126.57942087406326
+-126.78590994710338
+-126.99204107700068
+-127.19781608910736
+-127.40323679337233
+-127.6083049845222
+-127.81302244223978
+-128.01739093133943
+-128.22141220194038
+-128.42508798963706
+-128.62842001566693
+-128.8314099870761
+-129.03405959688226
+-129.2363705242351
+-129.43834443457476
+-129.6399829797878
+-129.84128779836055
+-130.04226051553096
+-130.2429027434374
+-130.4432160812662
+-130.6432021153962
+-130.84286241954194
+-131.04219855489438
+-131.24121207025973
+-131.43990450219647
+-131.63827737515007
+-131.83633220158623
+-132.0340704821219
+-132.23149370565469
+-132.4286033494904
+-132.62540087946866
+-132.821887750087
+-133.0180654046231
+-133.2139352752555
+-133.40949878318227
+-133.6047573387386
+-133.7997123415123
+-133.99436518045798
+-134.18871723400954
+-134.38276987019137
+-134.5765244467278
+-134.7699823111511
+-134.96314480090814
+-135.15601324346562
+-135.34858895641378
+-135.5408732475688
+-135.73286741507397
+-135.92457274749904
+-136.11599052393908
+-136.3071220141111
+-136.49796847845025
+-136.68853116820418
+-136.87881132552627
+-137.06881018356805
+-137.2585289665698
+-137.4479688899505
+-137.63713116039625
+-137.8260169759479
+-138.0146275260872
+-138.20296399182217
+-138.39102754577104
+-138.5788193522455
+-138.7663405673326
+-138.95359233897582
+-139.1405758070548
+-139.32729210346463
+-139.51374235219347
+-139.6999276693997
+-139.8858491634879
+-140.07150793518406
+-140.25690507760942
+-140.442041676354
+-140.62691880954873
+-140.81153754793698
+-140.9958989549451
+-141.18000408675206
+-141.3638539923584
+-141.54744971365415
+-141.73079228548593
+-141.91388273572366
+-142.09672208532564
+-142.27931134840372
+-142.46165153228705
+-142.6437436375856
+-142.82558865825217
+-143.0071875816447
+-143.18854138858677
+-143.36965105342819
+-143.55051754410442
+-143.7311418221955
+-143.9115248429842
+-144.0916675555134
+-144.2715709026432
+-144.45123582110668
+-144.63066324156577
+-144.8098540886658
+-144.98880928108997
+-145.1675297316128
+-145.34601634715312
+-145.52427002882644
+-145.70229167199685
+-145.88008216632798
+-146.0576423958337
+-146.23497323892823
+-146.41207556847547
+-146.5889502518379
+-146.76559815092492
+-146.94202012224073
+-147.1182170169315
+-147.29418968083218
+-147.46993895451251
+-147.6454656733231
+-147.82077066744012
+-147.99585476191038
+-148.1707187766954
+-148.34536352671498
+-148.51978982189058
+-148.69399846718804
+-148.8679902626598
+-149.04176600348669
+-149.2153264800194
+-149.38867247781937
+-149.56180477769914
+-149.73472415576242
+-149.90743138344382
+-150.07992722754784
+-150.25221245028774
+-150.42428780932372
+-150.59615405780102
+-150.76781194438735
+-150.93926221331003
+-151.1105056043926
+-151.28154285309142
+-151.45237469053126
+-151.62300184354115
+-151.79342503468953
+-151.96364498231893
+-152.1336624005806
+-152.30347799946847
+-152.47309248485308
+-152.64250655851478
+-152.8117209181769
+-152.98073625753835
+-153.14955326630616
+-153.31817263022728
+-153.48659503112057
+-153.65482114690786
+-153.82285165164532
+-153.9906872155539
+-154.15832850505004
+-154.3257761827756
+-154.49303090762774
+-154.6600933347884
+-154.82696411575358
+-154.99364389836222
+-155.16013332682476
+-155.32643304175159
+-155.492543680181
+-155.6584658756071
+-155.8242002580072
+-155.9897474538691
+-156.1551080862179
+-156.32028277464292
+-156.48527213532407
+-156.65007678105775
+-156.81469732128318
+-156.97913436210771
+-157.14338850633243
+-157.30746035347718
+-157.47135049980554
+-157.63505953834957
+-157.79858805893397
+-157.96193664820066
+-158.12510588963235
+-158.28809636357647
+-158.45090864726876
+-158.61354331485632
+-158.77600093742072
+-158.93828208300093
+-159.1003873166159
+-159.26231720028682
+-159.42407229305942
+-159.58565315102604
+-159.74706032734707
+-159.90829437227293
+-160.06935583316505
+-160.23024525451723
+-160.39096317797657
+-160.55151014236418
+-160.71188668369578
+-160.87209333520204
+-161.0321306273488
+-161.19199908785706
+-161.35169924172277
+-161.51123161123647
+-161.67059671600276
+-161.8297950729595
+-161.988827196397
+-162.14769359797683
+-162.30639478675056
+-162.4649312691785
+-162.6233035491479
+-162.7815121279912
+-162.93955750450434
+-163.09744017496428
+-163.25516063314709
+-163.41271937034531
+-163.5701168753855
+-163.72735363464543
+-163.88443013207115
+-164.04134684919416
+-164.19810426514792
+-164.35470285668472
+-164.5111430981922
+-164.6674254617095
+-164.8235504169437
+-164.9795184312858
+-165.1353299698266
+-165.29098549537267
+-165.44648546846173
+-165.60183034737844
+-165.75702058816952
+-165.91205664465926
+-166.06693896846437
+-166.22166800900922
+-166.3762442135404
+-166.5306680271417
+-166.68493989274856
+-166.83906025116258
+-166.99302954106577
+-167.146848199035
+-167.30051665955574
+-167.4540353550364
+-167.60740471582199
+-167.76062517020782
+-167.9136971444532
+-168.06662106279495
+-168.21939734746078
+-168.37202641868248
+-168.52450869470923
+-168.6768445918205
+-168.82903452433905
+-168.98107890464388
+-169.13297814318273
+-169.2847326484848
+-169.43634282717343
+-169.58780908397813
+-169.73913182174726
+-169.89031144146
+-170.04134834223854
+-170.19224292136005
+-170.34299557426857
+-170.49360669458687
+-170.64407667412803
+-170.79440590290724
+-170.94459476915313
+-171.09464365931922
+-171.24455295809534
+-171.3943230484188
+-171.5439543114855
+-171.69344712676096
+-171.84280187199147
+-171.99201892321463
+-172.14109865477047
+-172.29004143931192
+-172.43884764781546
+-172.58751764959172
+-172.73605181229584
+-172.88445050193786
+-173.03271408289297
+-173.18084291791175
+-173.32883736813014
+-173.47669779307967
+-173.62442455069726
+-173.77201799733507
+-173.91947848777045
+-174.0668063752154
+-174.21400201132658
+-174.3610657462144
+-174.50799792845285
+-174.65479890508882
+-174.8014690216514
+-174.94800862216115
+-175.09441804913928
+-175.24069764361684
+-175.38684774514365
+-175.5328686917974
+-175.67876082019248
+-175.82452446548874
+-175.97015996140053
+-176.115667640205
+-176.26104783275122
+-176.4063008684682
+-176.5514270753739
+-176.69642678008327
+-176.841300307817
+-176.9860479824094
+-177.130670126317
+-177.27516706062647
+-177.41953910506305
+-177.56378657799826
+-177.7079097964581
+-177.851909076131
+-177.9957847313755
+-178.13953707522836
+-178.2831664194121
+-178.42667307434272
+-178.57005734913741
+-178.7133195516221
+-178.85645998833897
+-178.999478964554
+-179.14237678426423
+-179.2851537502053
+-179.4278101638586
+-179.57034632545867
+-179.71276253400026
+-179.8550590872455
+-179.99723628173106
+-180.1392944127752
+-180.28123377448458
+-180.4230546597614
+-180.56475736031024
+-180.70634216664473
+-180.8478093680946
+-180.9891592528122
+-181.13039210777924
+-181.27150821881355
+-181.41250787057544
+-181.55339134657441
+-181.69415892917567
+-181.83481089960642
+-181.97534753796236
+-182.1157691232141
+-182.25607593321328
+-182.39626824469903
+-182.5363463333041
+-182.67631047356093
+-182.81616093890807
+-182.9558980016959
+-183.09552193319303
+-183.2350330035919
+-183.37443148201513
+-183.51371763652122
+-183.65289173411037
+-183.79195404073053
+-183.93090482128298
+-184.06974433962813
+-184.20847285859134
+-184.34709063996846
+-184.4855979445315
+-184.62399503203414
+-184.76228216121746
+-184.9004595898153
+-185.03852757455982
+-185.17648637118683
+-185.31433623444124
+-185.45207741808247
+-185.5897101748897
+-185.72723475666717
+-185.8646514142495
+-186.00196039750674
+-186.13916195534972
+-186.27625633573507
+-186.41324378567037
+-186.55012455121928
+-186.68689887750645
+-186.8235670087225
+-186.96012918812934
+-187.09658565806453
+-187.2329366599466
+-187.36918243427985
+-187.5053232206591
+-187.6413592577745
+-187.77729078341622
+-187.91311803447948
+-188.0488412469689
+-188.18446065600332
+-188.31997649582064
+-188.45538899978192
+-188.5906984003766
+-188.72590492922643
+-188.86100881709044
+-188.99601029386926
+-189.13090958860948
+-189.26570692950827
+-189.40040254391764
+-189.5349966583489
+-189.6694894984768
+-189.80388128914421
+-189.938172254366
+-190.0723626173336
+-190.206452600419
+-190.34044242517913
+-190.47433231235993
+-190.60812248190047
+-190.7418131529372
+-190.8754045438078
+-191.00889687205557
+-191.14229035443316
+-191.27558520690678
+-191.40878164466005
+-191.54187988209804
+-191.67488013285123
+-191.80778260977925
+-191.94058752497503
+-192.07329508976832
+-192.20590551472986
+-192.338419009675
+-192.4708357836674
+-192.60315604502307
+-192.7353800013138
+-192.86750785937107
+-192.99953982528962
+-193.13147610443121
+-193.26331690142823
+-193.3950624201872
+-193.52671286389253
+-193.65826843501006
+-193.78972933529047
+-193.92109576577295
+-194.05236792678866
+-194.1835460179642
+-194.31463023822505
+-194.4456207857991
+-194.57651785821992
+-194.70732165233028
+-194.83803236428543
+-194.9686501895565
+-195.0991753229339
+-195.2296079585304
+-195.3599482897848
+-195.4901965094647
+-195.6203528096703
+-195.75041738183708
+-195.8803904167395
+-196.0102721044938
+-196.1400626345614
+-196.26976219575204
+-196.39937097622675
+-196.5288891635011
+-196.65831694444833
+-196.78765450530216
+-196.9169020316602
+-197.04605970848672
+-197.1751277201158
+-197.30410625025428
+-197.43299548198473
+-197.56179559776842
+-197.69050677944827
+-197.81912920825184
+-197.94766306479403
+-198.07610852908027
+-198.20446578050914
+-198.33273499787532
+-198.46091635937242
+-198.5890100425959
+-198.7170162245456
+-198.84493508162893
+-198.97276678966327
+-199.10051152387882
+-199.2281694589216
+-199.35574076885575
+-199.48322562716652
+-199.6106242067629
+-199.73793667998027
+-199.865163218583
+-199.99230399376722
+-200.11935917616333
+-200.24632893583868
+-200.3732134423001
+-200.50001286449663
+-200.62672737082175
+-200.75335712911635
+-200.879902306671
+-201.00636307022853
+-201.13273958598649
+-201.2590320195997
+-201.3852405361827
+-201.5113653003123
+-201.6374064760298
+-201.7633642268437
+-201.88923871573186
+-202.01503010514412
+-202.14073855700454
+-202.2663642327138
+-202.39190729315166
+-202.51736789867917
+-202.6427462091411
+-202.7680423838682
+-202.8932565816796
+-203.018388960885
+-203.14343967928696
+-203.26840889418324
+-203.39329676236903
+-203.51810344013913
+-203.64282908329028
+-203.76747384712323
+-203.89203788644514
+-204.0165213555716
+-204.1409244083289
+-204.26524719805613
+-204.38948987760745
+-204.51365259935406
+-204.63773551518653
+-204.76173877651672
+-204.88566253428007
+-205.00950693893745
+-205.13327214047752
+-205.25695828841867
+-205.38056553181107
+-205.5040940192387
+-205.62754389882133
+-205.75091531821684
+-205.87420842462288
+-205.99742336477902
+-206.1205602849687
+-206.24361933102128
+-206.36660064831412
+-206.48950438177405
+-206.61233067588003
+-206.73507967466438
+-206.85775152171524
+-206.98034636017815
+-207.1028643327582
+-207.22530558172176
+-207.34767024889834
+-207.46995847568255
+-207.59217040303608
+-207.7143061714892
+-207.83636592114294
+-207.95834979167086
+-208.08025792232058
+-208.20209045191604
+-208.3238475188589
+-208.44552926113076
+-208.56713581629438
+-208.68866732149604
+-208.81012391346687
+-208.93150572852477
+-209.05281290257625
+-209.1740455711179
+-209.2952038692384
+-209.41628793162013
+-209.53729789254075
+-209.658233885875
+-209.77909604509654
+-209.8998845032793
+-210.02059939309945
+-210.14124084683692
+-210.261808996377
+-210.38230397321212
+-210.50272590844344
+-210.62307493278243
+-210.74335117655247
+-210.86355476969052
+-210.9836858417488
+-211.10374452189612
+-211.22373093891977
+-211.34364522122684
+-211.463487496846
+-211.5832578934288
+-211.7029565382515
+-211.82258355821648
+-211.94213907985377
+-212.0616232293225
+-212.18103613241257
+-212.30037791454615
+-212.419648700779
+-212.53884861580212
+-212.65797778394324
+-212.7770363291683
+-212.89602437508276
+-213.01494204493318
+-213.13378946160884
+-213.25256674764285
+-213.37127402521384
+-213.48991141614735
+-213.60847904191712
+-213.72697702364673
+-213.84540548211075
+-213.9637645377364
+-214.0820543106048
+-214.20027492045233
+-214.3184264866721
+-214.4365091283153
+-214.5545229640926
+-214.67246811237538
+-214.79034469119728
+-214.90815281825533
+-215.02589261091143
+-215.14356418619366
+-215.26116766079767
+-215.37870315108776
+-215.49617077309853
+-215.61357064253596
+-215.73090287477862
+-215.84816758487938
+-215.96536488756615
+-216.08249489724355
+-216.19955772799406
+-216.3165534935794
+-216.4334823074415
+-216.55034428270395
+-216.66713953217334
+-216.7838681683403
+-216.9005303033809
+-217.0171260491577
+-217.13365551722123
+-217.2501188188109
+-217.36651606485648
+-217.48284736597915
+-217.5991128324927
+-217.7153125744048
+-217.83144670141814
+-217.94751532293162
+-218.0635185480415
+-218.17945648554263
+-218.29532924392956
+-218.4111369313976
+-218.52687965584434
+-218.64255752487026
+-218.75817064578033
+-218.87371912558484
+-218.98920307100084
+-219.10462258845283
+-219.21997778407427
+-219.33526876370854
+-219.45049563291005
+-219.56565849694522
+-219.68075746079396
+-219.7957926291502
+-219.91076410642353
+-220.0256719967399
+-220.1405164039428
+-220.25529743159444
+-220.37001518297666
+-220.48466976109202
+-220.59926126866503
+-220.71378980814296
+-220.82825548169697
+-220.94265839122315
+-221.0569986383437
+-221.1712763244077
+-221.28549155049225
+-221.39964441740355
+-221.51373502567785
+-221.62776347558247
+-221.74172986711682
+-221.85563430001332
+-221.9694768737386
+-222.08325768749418
+-222.19697684021773
+-222.31063443058395
+-222.4242305570055
+-222.53776531763395
+-222.65123881036104
+-222.76465113281915
+-222.87800238238273
+-222.9912926561688
+-223.1045220510385
+-223.21769066359718
+-223.33079859019637
+-223.44384592693385
+-223.556832769655
+-223.66975921395354
+-223.78262535517277
+-223.89543128840606
+-224.00817710849813
+-224.1208629100456
+-224.23348878739827
+-224.34605483465975
+-224.4585611456886
+-224.57100781409883
+-224.68339493326127
+-224.795722596304
+-224.90799089611363
+-225.02019992533587
+-225.13234977637657
+-225.2444405414026
+-225.35647231234253
+-225.46844518088776
+-225.58035923849297
+-225.69221457637747
+-225.80401128552577
+-225.91574945668845
+-226.0274291803829
+-226.13905054689442
+-226.25061364627686
+-226.36211856835334
+-226.47356540271747
+-226.5849542387337
+-226.69628516553848
+-226.80755827204098
+-226.91877364692374
+-227.02993137864368
+-227.14103155543287
+-227.25207426529926
+-227.36305959602748
+-227.4739876351796
+-227.58485847009618
+-227.69567218789658
+-227.80642887548012
+-227.91712861952684
+-228.02777150649803
+-228.13835762263722
+-228.24888705397083
+-228.35935988630897
+-228.46977620524638
+-228.58013609616268
+-228.69043964422372
+-228.800686934382
+-228.91087805137744
+-229.0210130797381
+-229.13109210378124
+-229.24111520761346
+-229.35108247513196
+-229.46099399002506
+-229.57084983577298
+-229.68065009564836
+-229.7903948527173
+-229.9000841898399
+-230.00971818967102
+-230.11929693466087
+-230.22882050705587
+-230.33828898889934
+-230.44770246203205
+-230.55706100809314
+-230.6663647085207
+-230.7756136445523
+-230.88480789722598
+-230.99394754738083
+-231.10303267565752
+-231.21206336249915
+-231.3210396881519
+-231.42996173266565
+-231.53882957589465
+-231.6476432974982
+-231.7564029769415
+-231.86510869349587
+-231.97376052623994
+-232.08235855405988
+-232.19090285565017
+-232.29939350951454
+-232.40783059396608
+-232.51621418712844
+-232.62454436693602
+-232.73282121113496
+-232.8410447972835
+-232.9492152027527
+-233.0573325047272
+-233.16539678020575
+-233.27340810600182
+-233.38136655874413
+-233.48927221487747
+-233.59712515066335
+-233.70492544218015
+-233.81267316532438
+-233.92036839581087
+-234.02801120917343
+-234.13560168076572
+-234.24313988576125
+-234.3506258991548
+-234.45805979576235
+-234.56544165022186
+-234.67277153699413
+-234.78004953036296
+-234.88727570443604
+-234.99445013314545
+-235.1015728902482
+-235.2086440493269
+-235.31566368379015
+-235.42263186687333
+-235.5295486716391
+-235.63641417097793
+-235.74322843760856
+-235.84999154407896
+-235.95670356276642
+-236.0633645658783
+-236.16997462545268
+-236.27653381335887
+-236.38304220129783
+-236.48949986080288
+-236.5959068632401
+-236.70226327980907
+-236.80856918154325
+-236.9148246393106
+-237.02102972381402
+-237.12718450559208
+-237.2332890550193
+-237.3393434423069
+-237.4453477375032
+-237.55130201049428
+-237.65720633100432
+-237.76306076859623
+-237.86886539267223
+-237.9746202724742
+-238.08032547708447
+-238.1859810754259
+-238.29158713626293
+-238.39714372820163
+-238.5026509196904
+-238.60810877902063
+-238.71351737432687
+-238.8188767735876
+-238.9241870446255
+-239.02944825510835
+-239.134660472549
+-239.2398237643062
+-239.34493819758504
+-239.45000383943744
+-239.5550207567626
+-239.6599890163074
+-239.76490868466706
+-239.8697798282856
+-239.97460251345615
+-240.07937680632156
+-240.18410277287504
+-240.2887804789601
+-240.39340999027164
+-240.4979913723561
+-240.602524690612
+-240.70701001029025
+-240.8114473964949
+-240.91583691418344
+-241.02017862816717
+-241.1244726031119
+-241.22871890353812
+-241.33291759382175
+-241.43706873819434
+-241.54117240074373
+-241.6452286454143
+-241.7492375360076
+-241.85319913618267
+-241.95711350945652
+-242.06098071920457
+-242.16480082866116
+-242.2685739009199
+-242.37229999893418
+-242.47597918551742
+-242.57961152334386
+-242.6831970749486
+-242.78673590272828
+-242.8902280689414
+-242.9936736357089
+-243.09707266501434
+-243.20042521870448
+-243.30373135848973
+-243.40699114594446
+-243.51020464250755
+-243.61337190948262
+-243.7164930080386
+-243.81956799921016
+-243.92259694389801
+-244.02557990286934
+-244.12851693675833
+-244.2314081060663
+-244.33425347116255
+-244.43705309228434
+-244.53980702953746
+-244.64251534289667
+-244.7451780922061
+-244.84779533717952
+-244.9503671374008
+-245.05289355232452
+-245.15537464127598
+-245.25781046345185
+-245.3602010779205
+-245.46254654362235
+-245.56484691937024
+-245.66710226385004
+-245.7693126356207
+-245.87147809311477
+-245.97359869463895
+-246.07567449837416
+-246.17770556237625
+-246.279691944576
+-246.38163370277982
+-246.48353089467
+-246.5853835778051
+-246.68719180962023
+-246.78895564742754
+-246.89067514841662
+-246.99235036965462
+-247.0939813680869
+-247.19556820053722
+-247.2971109237083
+-247.3986095941819
+-247.50006426841924
+-247.60147500276167
+-247.70284185343073
+-247.80416487652846
+-247.90544412803789
+-248.00667966382343
+-248.10787153963122
+-248.2090198110893
+-248.310124533708
+-248.41118576288065
+-248.5122035538834
+-248.61317796187586
+-248.71410904190145
+-248.81499684888766
+-248.91584143764638
+-249.01664286287425
+-249.1174011791531
+-249.2181164409502
+-249.31878870261855
+-249.4194180183973
+-249.52000444241202
+-249.62054802867507
+-249.721048831086
+-249.82150690343178
+-249.921922299387
+-250.02229507251465
+-250.1226252762658
+-250.22291296398052
+-250.32315818888782
+-250.42336100410628
+-250.52352146264386
+-250.62363961739896
+-250.72371552116007
+-250.82374922660642
+-250.92374078630826
+-251.02369025272708
+-251.12359767821607
+-251.22346311502034
+-251.32328661527708
+-251.4230682310163
+-251.52280801416066
+-251.62250601652607
+-251.72216228982194
+-251.82177688565145
+-251.9213498555118
+-252.02088125079464
+-252.12037112278634
+-252.2198195226682
+-252.31922650151682
+-252.4185921103045
+-252.51791639989924
+-252.6171994210655
+-252.71644122446392
+-252.8156418606522
+-252.9148013800848
+-253.01391983311396
+-253.11299726998917
+-253.21203374085812
+-253.31102929576662
+-253.4099839846591
+-253.50889785737874
+-253.60777096366783
+-253.7066033531681
+-253.80539507542082
+-253.90414617986733
+-254.00285671584913
+-254.10152673260842
+-254.20015627928788
+-254.29874540493154
+-254.39729415848467
+-254.49580258879416
+-254.59427074460882
+-254.6926986745797
+-254.79108642726024
+-254.88943405110663
+-254.98774159447808
+-255.086009105637
+-255.1842366327495
+-255.2824242238853
+-255.3805719270184
+-255.47867979002694
+-255.57674786069387
+-255.67477618670694
+-255.77276481565897
+-255.87071379504832
+-255.9686231722789
+-256.06649299466073
+-256.1643233094097
+-256.2621141636486
+-256.3598656044066
+-256.4575776786198
+-256.55525043313185
+-256.6528839146935
+-256.7504781699636
+-256.8480332455088
+-256.94554918780386
+-257.0430260432324
+-257.14046385808643
+-257.2378626785672
+-257.33522255078503
+-257.43254352075996
+-257.5298256344215
+-257.6270689376095
+-257.7242734760738
+-257.8214392954746
+-257.91856644138323
+-258.0156549592818
+-258.1127048945634
+-258.209716292533
+-258.30668919840707
+-258.40362365731386
+-258.5005197142941
+-258.5973774143008
+-258.69419680219966
+-258.7909779227691
+-258.887720820701
+-258.9844255406003
+-259.08109212698577
+-259.17772062428975
+-259.27431107685896
+-259.3708635289543
+-259.467378024751
+-259.5638546083394
+-259.6602933237245
+-259.7566942148268
+-259.85305732548204
+-259.9493826994418
+-260.04567038037334
+-260.1419204118604
+-260.23813283740265
+-260.3343077004168
+-260.43044504423585
+-260.52654491211024
+-260.62260734720746
+-260.7186323926125
+-260.8146200913281
+-260.9105704862748
+-261.0064836202913
+-261.10235953613477
+-261.1981982764807
+-261.2939998839236
+-261.38976440097684
+-261.48549187007296
+-261.5811823335641
+-261.67683583372184
+-261.7724524127377
+-261.86803211272337
+-261.96357497571057
+-262.0590810436517
+-262.15455035841984
+-262.2499829618088
+-262.34537889553377
+-262.44073820123106
+-262.53606092045857
+-262.6313470946959
+-262.72659676534477
+-262.82180997372876
+-262.916986761094
+-263.01212716860914
+-263.10723123736557
+-263.20229900837757
+-263.29733052258274
+-263.39232582084185
+-263.48728494393947
+-263.58220793258363
+-263.6770948274067
+-263.77194566896486
+-263.86676049773877
+-263.9615393541338
+-264.0562822784797
+-264.1509893110317
+-264.2456604919697
+-264.34029586139917
+-264.434895459351
+-264.5294593257819
+-264.62398750057446
+-264.7184800235374
+-264.8129369344056
+-264.9073582728406
+-265.0017440784307
+-265.0960943906908
+-265.19040924906295
+-265.2846886929166
+-265.3789327615484
+-265.47314149418287
+-265.56731492997216
+-265.6614531079964
+-265.755556067264
+-265.8496238467118
+-265.9436564852049
+-266.0376540215373
+-266.13161649443214
+-266.2255439425412
+-266.31943640444587
+-266.41329391865685
+-266.50711652361457
+-266.60090425768914
+-266.69465715918074
+-266.78837526631986
+-266.88205861726703
+-266.97570725011366
+-267.0693212028815
+-267.16290051352354
+-267.2564452199236
+-267.3499553598967
+-267.44343097118946
+-267.5368720914799
+-267.63027875837787
+-267.72365100942517
+-267.81698888209564
+-267.9102924137955
+-268.00356164186314
+-268.0967966035699
+-268.1899973361197
+-268.2831638766494
+-268.3762962622292
+-268.46939452986214
+-268.56245871648514
+-268.6554888589687
+-268.74848499411684
+-268.84144715866773
+-268.9343753892936
+-269.02726972260115
+-269.12013019513114
+-269.21295684335934
+-269.30574970369605
+-269.39850881248657
+-269.4912342060113
+-269.5839259204861
+-269.67658399206186
+-269.76920845682537
+-269.8617993507991
+-269.95435670994135
+-270.04688057014647
+-270.13937096724527
+-270.2318279370046
+-270.3242515151281
+-270.41664173725593
+-270.5089986389653
+-270.60132225577036
+-270.69361262312225
+-270.78586977640975
+-270.87809375095884
+-270.97028458203323
+-271.06244230483446
+-271.15456695450195
+-271.24665856611324
+-271.3387171746841
+-271.4307428151687
+-271.5227355224597
+-271.6146953313886
+-271.70662227672557
+-271.79851639317997
+-271.89037771540006
+-271.98220627797366
+-272.0740021154279
+-272.1657652622295
+-272.25749575278496
+-272.3491936214405
+-272.4408589024828
+-272.53249163013817
+-272.6240918385737
+-272.7156595618967
+-272.80719483415515
+-272.8986976893378
+-272.99016816137436
+-273.08160628413555
+-273.17301209143324
+-273.26438561702065
+-273.35572689459246
+-273.44703595778515
+-273.53831284017673
+-273.6295575752871
+-273.7207701965785
+-273.81195073745494
+-273.903099231263
+-273.9942157112918
+-274.08530021077286
+-274.17635276288047
+-274.26737340073186
+-274.35836215738726
+-274.44931906585
+-274.5402441590668
+-274.6311374699277
+-274.72199903126625
+-274.8128288758599
+-274.9036270364297
+-274.9943935456409
+-275.08512843610254
+-275.1758317403681
+-275.26650349093546
+-275.3571437202469
+-275.44775246068923
+-275.5383297445942
+-275.6288756042385
+-275.7193900718436
+-275.8098731795763
+-275.9003249595486
+-275.99074544381796
+-276.08113466438743
+-276.17149265320563
+-276.26181944216705
+-276.3521150631121
+-276.4423795478272
+-276.53261292804507
+-276.6228152354446
+-276.7129865016512
+-276.8031267582369
+-276.8932360367202
+-276.9833143685668
+-277.073361785189
+-277.1633783179463
+-277.25336399814535
+-277.34331885704023
+-277.4332429258323
+-277.5231362356706
+-277.61299881765194
+-277.7028307028207
+-277.79263192216933
+-277.88240250663836
+-277.97214248711646
+-278.0618518944406
+-278.15153075939617
+-278.24117911271713
+-278.330796985086
+-278.42038440713424
+-278.50994140944204
+-278.5994680225387
+-278.6889642769027
+-278.7784302029617
+-278.8678658310927
+-278.95727119162234
+-279.0466463148266
+-279.13599123093155
+-279.2253059701129
+-279.31459056249616
+-279.4038450381572
+-279.49306942712195
+-279.5822637593666
+-279.67142806481786
+-279.760562373353
+-279.84966671479975
+-279.93874111893683
+-280.02778561549354
+-280.11680023415056
+-280.2057850045394
+-280.29473995624284
+-280.383665118795
+-280.47256052168143
+-280.5614261943392
+-280.65026216615723
+-280.7390684664759
+-280.8278451245877
+-280.9165921697371
+-281.00530963112055
+-281.0939975378867
+-281.1826559191368
+-281.2712848039242
+-281.35988422125496
+-281.4484542000878
+-281.5369947693341
+-281.62550595785814
+-281.71398779447725
+-281.80244030796166
+-281.89086352703504
+-281.9792574803741
+-282.06762219660914
+-282.1559577043237
+-282.24426403205536
+-282.33254120829497
+-282.42078926148747
+-282.5090082200316
+-282.5971981122802
+-282.68535896654015
+-282.77349081107275
+-282.8615936740934
+-282.94966758377205
+-283.03771256823336
+-283.1257286555562
+-283.21371587377473
+-283.3016742508775
+-283.38960381480837
+-283.47750459346594
+-283.56537661470423
+-283.6532199063323
+-283.74103449611476
+-283.8288204117715
+-283.9165776809781
+-284.0043063313658
+-284.0920063905214
+-284.1796778859878
+-284.26732084526367
+-284.35493529580384
+-284.44252126501925
+-284.5300787802771
+-284.61760786890085
+-284.7051085581706
+-284.7925808753227
+-284.88002484755043
+-284.9674405020037
+-285.05482786578904
+-285.1421869659702
+-285.22951782956784
+-285.3168204835597
+-285.40409495488075
+-285.4913412704232
+-285.5785594570369
+-285.6657495415289
+-285.7529115506639
+-285.8400455111645
+-285.9271514497107
+-286.0142293929408
+-286.1012793674508
+-286.1883013997946
+-286.27529551648473
+-286.36226174399144
+-286.4492001087437
+-286.5361106371286
+-286.622993355492
+-286.7098482901382
+-286.7966754673302
+-286.8834749132899
+-286.970246654198
+-287.05699071619415
+-287.14370712537703
+-287.2303959078046
+-287.31705708949397
+-287.40369069642145
+-287.490296754523
+-287.57687528969393
+-287.6634263277891
+-287.7499498946233
+-287.83644601597075
+-287.9229147175658
+-288.0093560251025
+-288.09576996423505
+-288.18215656057794
+-288.26851583970546
+-288.3548478271526
+-288.4411525484144
+-288.5274300289466
+-288.6136802941653
+-288.6999033694474
+-288.7860992801303
+-288.8722680515125
+-288.9584097088531
+-289.04452427737226
+-289.1306117822513
+-289.2166722486326
+-289.30270570161974
+-289.3887121662776
+-289.4746916676325
+-289.5606442306722
+-289.6465698803461
+-289.732468641565
+-289.8183405392017
+-289.90418559809063
+-289.9900038430282
+-290.0757952987728
+-290.1615599900447
+-290.2472979415263
+-290.33300917786266
+-290.4186937236605
+-290.50435160348934
+-290.58998284188095
+-290.67558746332975
+-290.7611654922927
+-290.8467169531894
+-290.9322418704024
+-291.0177402682769
+-291.10321217112113
+-291.1886576032064
+-291.2740765887669
+-291.35946915200026
+-291.44483531706703
+-291.53017510809144
+-291.6154885491608
+-291.70077566432604
+-291.78603647760167
+-291.87127101296585
+-291.95647929436024
+-292.0416613456906
+-292.12681719082633
+-292.2119468536008
+-292.2970503578115
+-292.3821277272198
+-292.4671789855516
+-292.55220415649654
+-292.637203263709
+-292.7221763308076
+-292.8071233813754
+-292.89204443896
+-292.97693952707374
+-293.0618086691934
+-293.1466518887608
+-293.2314692091824
+-293.3162606538297
+-293.4010262460391
+-293.4857660091121
+-293.57047996631536
+-293.6551681408806
+-293.7398305560051
+-293.82446723485106
+-293.90907820054656
+-293.9936634761849
+-294.078223084825
+-294.16275704949146
+-294.2472653931746
+-294.33174813883033
+-294.41620530938076
+-294.5006369277136
+-294.5850430166826
+-294.66942359910786
+-294.7537786977753
+-294.83810833543714
+-294.9224125348119
+-295.0066913185845
+-295.090944709406
+-295.1751727298944
+-295.2593754026339
+-295.3435527501754
+-295.42770479503656
+-295.5118315597017
+-295.595933066622
+-295.6800093382157
+-295.76406039686776
+-295.84808626493026
+-295.93208696472243
+-296.0160625185307
+-296.1000129486086
+-296.183938277177
+-296.2678385264242
+-296.351713718506
+-296.43556387554554
+-296.51938901963365
+-296.60318917282865
+-296.6869643571568
+-296.7707145946119
+-296.8544399071558
+-296.9381403167179
+-297.0218158451961
+-297.1054665144558
+-297.1890923463309
+-297.27269336262316
+-297.3562695851027
+-297.43982103550803
+-297.52334773554577
+-297.60684970689124
+-297.69032697118803
+-297.7737795500484
+-297.85720746505314
+-297.9406107377518
+-298.0239893896626
+-298.10734344227257
+-298.19067291703766
+-298.2739778353827
+-298.3572582187016
+-298.44051408835713
+-298.5237454656814
+-298.6069523719755
+-298.69013482850994
+-298.7732928565244
+-298.856426477228
+-298.93953571179935
+-299.0226205813863
+-299.10568110710665
+-299.18871731004737
+-299.2717292112653
+-299.3547168317873
+-299.43768019260943
+-299.52061931469814
+-299.60353421898947
+-299.68642492638963
+-299.7692914577747
+-299.852133833991
+-299.93495207585494
+-300.0177462041531
+-300.1005162396425
+-300.1832622030503
+-300.2659841150741
+-300.34868199638214
+-300.43135586761287
+-300.5140057493755
+-300.5966316622499
+-300.67923362678647
+-300.76181166350653
+-300.84436579290207
+-300.9268960354361
+-301.00940241154217
+-301.0918849416253
+-301.17434364606135
+-301.25677854519716
+-301.33918965935084
+-301.42157700881165
+-301.5039406138402
+-301.5862804946683
+-301.6685966714993
+-301.7508891645077
+-301.83315799383996
+-301.9154031796135
+-301.99762474191783
+-302.0798227008139
+-302.16199707633444
+-302.24414788848384
+-302.32627515723846
+-302.40837890254653
+-302.4904591443281
+-302.5725159024753
+-302.65454919685226
+-302.7365590472953
+-302.8185454736128
+-302.9005084955855
+-302.98244813296606
+-303.0643644054799
+-303.14625733282463
+-303.2281269346702
+-303.309973230659
+-303.3917962404063
+-303.47359598349954
+-303.5553724794991
+-303.63712574793794
+-303.71885580832173
+-303.8005626801291
+-303.88224638281133
+-303.96390693579275
+-304.0455443584706
+-304.1271586702152
+-304.2087498903698
+-304.290318038251
+-304.3718631331482
+-304.4533851943245
+-304.53488424101585
+-304.61636029243175
+-304.69781336775503
+-304.779243486142
+-304.86065066672234
+-304.9420349285993
+-305.02339629084986
+-305.10473477252447
+-305.18605039264725
+-305.26734317021624
+-305.348613124203
+-305.4298602735531
+-305.5110846371861
+-305.5922862339953
+-305.67346508284805
+-305.7546212025858
+-305.835754612024
+-305.91686532995226
+-305.9979533751345
+-306.0790187663086
+-306.16006152218705
+-306.2410816614565
+-306.32207920277807
+-306.40305416478714
+-306.48400656609374
+-306.56493642528244
+-306.64584376091227
+-306.72672859151703
+-306.8075909356051
+-306.88843081165965
+-306.96924823813845
+-307.05004323347447
+-307.13081581607514
+-307.211566004323
+-307.2922938165756
+-307.3729992711654
+-307.4536823864
+-307.534343180562
+-307.6149816719094
+-307.6955978786751
+-307.7761918190673
+-307.85676351126983
+-307.93731297344146
+-308.0178402237166
+-308.09834528020485
+-308.17882816099166
+-308.2592888841376
+-308.3397274676792
+-308.42014392962835
+-308.50053828797263
+-308.58091056067553
+-308.6612607656761
+-308.7415889208893
+-308.8218950442058
+-308.9021791534924
+-308.98244126659165
+-309.0626814013222
+-309.1428995754787
+-309.2230958068318
+-309.3032701131284
+-309.3834225120915
+-309.4635530214203
+-309.54366165879026
+-309.62374844185325
+-309.7038133882373
+-309.783856515547
+-309.86387784136326
+-309.94387738324355
+-310.0238551587218
+-310.1038111853086
+-310.1837454804909
+-310.2636580617327
+-310.3435489464744
+-310.4234181521332
+-310.50326569610314
+-310.58309159575504
+-310.66289586843664
+-310.74267853147256
+-310.82243960216437
+-310.9021790977906
+-310.98189703560695
+-311.0615934328461
+-311.1412683067179
+-311.2209216744093
+-311.30055355308457
+-311.38016395988524
+-311.4597529119299
+-311.5393204263148
+-311.61886652011333
+-311.6983912103766
+-311.77789451413275
+-311.85737644838775
+-311.93683703012505
+-312.01627627630563
+-312.0956942038681
+-312.17509082972884
+-312.2544661707819
+-312.333820243899
+-312.41315306592975
+-312.4924646537015
+-312.5717550240197
+-312.65102419366735
+-312.73027217940574
+-312.80949899797395
+-312.8887046660892
+-312.9678892004468
+-313.0470526177201
+-313.1261949345607
+-313.20531616759826
+-313.28441633344084
+-313.3634954486747
+-313.44255352986437
+-313.52159059355284
+-313.60060665626145
+-313.67960173448995
+-313.7585758447165
+-313.8375290033981
+-313.91646122696983
+-313.9953725318457
+-314.07426293441824
+-314.15313245105864
+-314.2319810981169
+-314.31080889192157
+-314.3896158487801
+-314.4684019849789
+-314.54716731678303
+-314.6259118604366
+-314.70463563216254
+-314.78333864816284
+-314.8620209246184
+-314.9406824776894
+-315.01932332351487
+-315.09794347821304
+-315.1765429578815
+-315.25512177859673
+-315.3336799564146
+-315.41221750737037
+-315.4907344474784
+-315.5692307927327
+-315.64770655910627
+-315.72616176255184
+-315.8045964190016
+-315.88301054436715
+-315.96140415453954
+-316.0397772653896
+-316.1181298927677
+-316.1964620525038
+-316.2747737604076
+-316.35306503226843
+-316.4313358838556
+-316.50958633091795
+-316.5878163891844
+-316.6660260743635
+-316.74421540214394
+-316.8223843881941
+-316.9005330481626
+-316.9786613976778
+-317.0567694523483
+-317.1348572277628
+-317.2129247394899
+-317.2909720030786
+-317.36899903405794
+-317.4470058479373
+-317.5249924602062
+-317.6029588863345
+-317.68090514177237
+-317.7588312419505
+-317.83673720227966
+-317.9146230381514
+-317.99248876493755
+-318.07033439799034
+-318.1481599526429
+-318.2259654442085
+-318.3037508879813
+-318.3815162992362
+-318.45926169322826
+-318.53698708519386
+-318.61469249034974
+-318.6923779238935
+-318.77004340100376
+-318.84768893683963
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$   [K  q[K[K[Kclear
+[H[2J[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ clear
+[H[2J[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ls
+lib  LILSnap  LILtest.jar  LILtestResults.txt  README0liltest.lil  README.TXT  typescript
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/liltest[0m ]$ ..
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus[0m ]$ cd DataFiles/
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ls
+experiments  Pixel_DevURandom_Reboot_1.dat  Pixel_SecureRandom_1.dat  Pixel_UtilRandom_1.dat  result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2206436
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root          0 Mar 13 01:52 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2212208
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   20971520 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2269488
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   79691776 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2290992
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  101711872 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2296112
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  106954752 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2300912
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  111856720 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2305264
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  116266896 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2323696
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  135150328 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2326128
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  137633792 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2327984
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  139530240 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2329776
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  141389160 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2331376
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  143032176 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2333488
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  145215048 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2334000
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  145751968 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2335472
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  147208648 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2337072
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  148897792 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2339184
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  151011328 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2341168
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  153092096 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2343216
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  155189248 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2345264
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  157286400 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2346928
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  158950856 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2348336
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  160432128 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2350384
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  162529280 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2351728
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  163848192 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2353456
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  165675008 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2355248
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  167478944 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2356976
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  169277648 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2358128
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  170394152 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2359600
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  171966464 Mar 13 01:59 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2361648
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  174063616 Mar 13 02:00 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2363120
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  175536128 Mar 13 02:00 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2427632
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  241609408 Mar 13 02:00 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2534512
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  351020456 Mar 13 02:00 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2538416
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  355039632 Mar 13 02:00 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 2633008
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  451936256 Mar 13 02:01 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3003888
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  831700992 Mar 13 02:03 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3106096
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  936378368 Mar 13 02:03 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3109168
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  939524096 Mar 13 02:03 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3287344
+drwxrwxrwx 2 root root          0 Mar 13 01:52 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ llscd DataFiles/..[Kls
+experiments			Pixel_DevURandom_Reboot_1.dat  Pixel_UtilRandom_1.dat
+Pixel_DevURandom_Entropy_1.dat	Pixel_SecureRandom_1.dat       result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ lsl
+total 3287344
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root          0 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3300912
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   13885440 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3313968
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   27262976 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3316080
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   29421568 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3320112
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   33554432 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3322992
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   36457008 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3325232
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   38797312 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3330352
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   44040192 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3332016
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   45717656 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3332592
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root   46288896 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3398960
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  114294784 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3402032
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  117440512 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3435760
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  151924400 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3524912
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  243229408 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3526960
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  245366784 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3528944
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  247377912 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3531056
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  249561088 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3531952
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  250454760 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3649840
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  371195904 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3922416
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  650309632 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ll
+total 3931440
+drwxrwxrwx 2 root root          0 Mar 13 02:06 .
+drwxrwxrwx 2 root root          0 Mar 12 19:26 ..
+drwxrwxrwx 2 root root          0 Mar 12 11:57 experiments
+-rwxrwxrwx 1 root root  659554304 Mar 13 02:06 Pixel_DevURandom_Entropy_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 13 02:04 Pixel_DevURandom_Reboot_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 11:55 Pixel_SecureRandom_1.dat
+-rwxrwxrwx 1 root root 1121976320 Mar 12 12:11 Pixel_UtilRandom_1.dat
+-rwxrwxrwx 1 root root          0 Mar 12 11:57 result.txt
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ipytho3n
+No command 'ipytho3n' found, did you mean:
+ Command 'ipython' from package 'ipython' (universe)
+ Command 'ipython3' from package 'ipython3' (universe)
+ipytho3n: command not found
+[ [1;90mjackson@DESKTOP-DLDH41C:[0m [0;33m[40m/mnt/c/Users/jackson/AndroidStudioProjects/RNJesus/DataFiles[0m ]$ ipython3
+Python 3.4.3 (default, Nov 17 2016, 01:08:31) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 1.2.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+[0;34mIn [[1;34m1[0;34m]: [0mDict
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+[0;32m<ipython-input-1-3d948777c428>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0mDict[0m[0;34m[0m[0m
+[0m
+[0;31mNameError[0m: name 'Dict' is not defined
+
+[0;34mIn [[1;34m2[0;34m]: [0mdict()[K[K[K[K[K[KDict()
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+[0;32m<ipython-input-2-c959088413e1>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0mDict[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0m
+[0m
+[0;31mNameError[0m: name 'Dict' is not defined
+
+[0;34mIn [[1;34m3[0;34m]: [0ma = dict()
+
+[0;34mIn [[1;34m4[0;34m]: [0ma
+[0;31mOut[[1;31m4[0;31m]: [0m{}
+
+[0;34mIn [[1;34m5[0;34m]: [0mdir(a0[K)
+[0;31mOut[[1;31m5[0;31m]: [0m
+['__class__',
+ '__contains__',
+ '__delattr__',
+ '__delitem__',
+ '__dir__',
+ '__doc__',
+ '__eq__',
+ '__format__',
+ '__ge__',
+ '__getattribute__',
+ '__getitem__',
+ '__gt__',
+ '__hash__',
+ '__init__',
+ '__iter__',
+ '__le__',
+ '__len__',
+ '__lt__',
+ '__ne__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__setitem__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ 'clear',
+ 'copy',
+ 'fromkeys',
+ 'get',
+ 'items',
+ 'keys',
+ 'pop',
+ 'popitem',
+ 'setdefault',
+ 'update',
+ 'values']
+
+[0;34mIn [[1;34m6[0;34m]: [0ma = open(oup[Ktput. s[K[Kcsv, 'w')
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+[0;32m<ipython-input-6-973d39a85f3b>[0m in [0;36m<module>[0;34m()[0m
+[0;32m----> 1[0;31m [0ma[0m [0;34m=[0m [0mopen[0m[0;34m([0m[0moutput[0m[0;34m.[0m[0mcsv[0m[0;34m,[0m [0;34m'w'[0m[0;34m)[0m[0;34m[0m[0m
+[0m
+[0;31mNameError[0m: name 'output' is not defined
+
+[0;34mIn [[1;34m7[0;34m]: [0ma[Ka = open(output.csv, 'w')[C[1@"[1@"
+
+[0;34mIn [[1;34m8[0;34m]: [0mdir(a)
+[0;31mOut[[1;31m8[0;31m]: [0m
+['_CHUNK_SIZE',
+ '__class__',
+ '__del__',
+ '__delattr__',
+ '__dict__',
+ '__dir__',
+ '__doc__',
+ '__enter__',
+ '__eq__',
+ '__exit__',
+ '__format__',
+ '__ge__',
+ '__getattribute__',
+ '__getstate__',
+ '__gt__',
+ '__hash__',
+ '__init__',
+ '__iter__',
+ '__le__',
+ '__lt__',
+ '__ne__',
+ '__new__',
+ '__next__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ '_checkClosed',
+ '_checkReadable',
+ '_checkSeekable',
+ '_checkWritable',
+ '_finalizing',
+ 'buffer',
+ 'close',
+ 'closed',
+ 'detach',
+ 'encod

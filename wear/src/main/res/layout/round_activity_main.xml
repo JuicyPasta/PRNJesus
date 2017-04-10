@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jacksondarrow.rnjesus.MainActivity"
+    tools:deviceIds="wear_round">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="192.168.0.138"
+                android:ems="10"
+                android:id="@+id/hostname" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="8080"
+                android:ems="10"
+                android:id="@+id/port" />
+
+            <!--android:text="1073741824"-->
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:text="1121976320"
+                android:ems="10"
+                android:id="@+id/size" />
+
+            <Button
+                android:text="rolling java.util.Random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:onClick="genJavaUtilRandom"
+                android:layout_marginTop="38dp" />
+
+            <Button
+                android:text="rolling SecureRandom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="genSecureRandom"
+                android:id="@+id/button3" />
+
+            <Button
+                android:text="Rolling /dev/urandom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="genDevURandom"
+                android:id="@+id/button4" />
+
+            <Button
+                android:text="Rolling /dev/random"
+                android:layout_width="203dp"
+                android:onClick="genDevRandom"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/largeText"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.25" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

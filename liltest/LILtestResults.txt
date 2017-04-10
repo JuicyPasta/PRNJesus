@@ -1,0 +1,30 @@
+The following is a list of the testing results:
+You provided a single random-bit file: README.TXT
+It is 0MB long. I divided this file 
+into 1 sequences (each sequence is 512KB) and 
+carried out LIL testing on them.
+
+You have requested to generate the LIL curve pdf file. The resulting 
+LIL curve file could be found in: SNAP.pdf
+
+You have requested to carry out the snapShot testing. I generated
+the snapShot curve in the file: SNAP.pdf. The statistical
+distances are as follows (if the actual value is smaller than the expected
+value, then your sequence passed the LIL test):
+Total Variation: 
+		4.6983(expected)	
+		0.9884159176 (actual)
+Hellinger distance: 
+		3.3809(expected)	
+		0.9446537060349711 (actual)
+root-mean-square deviation: 
+		0.3404(expected)	
+		0.15500137448829382 (actual)
+
+The LIL testing was carried out on 1 sequences. Each Sequence is
+64KB long.
+Thanks for using LIL testing tools. Please note that the obtained results
+and the software is for education/research use only.
+This software or the testing results should not be used for any commercial purpose.
+For details, please contact: Yongge.Wang@gmail.com
+This software was last updated on August 17, 2015
